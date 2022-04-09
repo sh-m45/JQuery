@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body id="body">
+    <div class="loading d-flex justify-content-center align-items-center" id="loading">
+        <div class="ring-of-dots"></div>
+    </div>
+    <header class="homePage w-100">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Italiano Pizza</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0 py-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#body">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Card</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Services</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="container text-white d-flex h-100 align-items-center justify-content-start">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Welcome to our restaurant</h1>
+                    <p class="pt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis animi temporibus
+                        aliquid,
+                        voluptas
+                        quaerat maiores non distinctio repellendus provident magni et nemo perspiciatis dolorum itaque
+                        molestias. Odio sequi facilis necessitatibus.Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Veritatis animi temporibus aliquid,
+                        voluptas
+                        quaerat maiores non distinctio repellendus provident magni et nemo perspiciatis dolorum itaque
+                        molestias. Odio sequi facilis necessitatibus?</p>
+                </div>
+                <div class="col-md-6">
+                    <!-- empty -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid" id="menu">
+        <div class="row">
+            <div class="col-md-6 pt-3" style="background-color: #b6b8bb;">
+                <ul id="listItem" class="list-unstyled">
+
+                </ul>
+            </div>
+            <div class="col-md-6 card">
+                <div class="container cardItems my-3 pb-5">
+                    <h2>Please select favourite items</h2>
+                    <div class="p-3">
+                        <ul id="listItemJq" class="list-unstyled">
+
+                        </ul>
+                    </div>
+                    <div class="totalCost mx-5">
+                        <label>Total Cost :-</label>
+                        <label class="TotalPrrice "> 0 </label>
+                        <label> EGP </label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <section class="contact text-center py-5" id="contact">
+        <div class="container">
+            <h2 class="my-4 h2Contact">our contact</h2>
+            <p class="lead">
+                It is a long established fact that a reader will be of a page when established fact looking at its
+                layout.
+            </p>
+            <div class="contact-icons">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="icon">
+                            <i class="fa fa-mobile fa-4x iconItme" aria-hidden="true"></i>
+                            <p>Call Us On</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="icon">
+                            <i class="fa fa-envelope fa-3x iconItme" aria-hidden="true"></i>
+                            <p>Email Us At</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="icon">
+                            <i class="fa fa-map-marker fa-3x iconItme" aria-hidden="true"></i>
+                            <p>Visit Office</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form action="">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input type="text" name="InpName" class="form-control" placeholder="your name*" required>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input type="email" name="InpName" class="form-control" placeholder="your emial*" required>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <input type="text" name="InpName" class="form-control" placeholder="your subject...">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <textarea name="text" class="form-control" rows="7" placeholder="your message"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end w-100">
+                    <button class="btn btn-secondary" type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="mt-5 p-5 bg-dark" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pr-5">
+                    <h4>About</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h4>Blogroll</h4>
+                    <ul class="styleList">
+                        <li>NETTUTS+</li>
+                        <li>FreelanceSwitch</li>
+                        <li>In The Woods</li>
+                        <li>Netsetter</li>
+                        <li>PSDTUTS+</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h4>Popular</h4>
+                    <ul class="styleList">
+                        <li>This is the title of a blog post+</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Consectetur adipisicing elit, sed do eiusmod</li>
+                        <li>Duis aute irure dolor</li>
+                        <li>Excepteur sint occaecat cupidatat</li>
+                        <li>Reprehenderit in voluptate velit</li>
+                        <li>Officia deserunt mollit anim id est laborum</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="css/jquery-3.6.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="index.js"></script>
+    <script src="jQuery.js"></script>
+</body>
+
+</html>
